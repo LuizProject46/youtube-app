@@ -3,7 +3,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const routes = require("./routes/routes")
 const path = require('path')
-const port = 3333
+const port = process.env.PORT || 3333
 const app = express()
 
 
